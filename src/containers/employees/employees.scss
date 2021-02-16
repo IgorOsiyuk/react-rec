@@ -1,0 +1,26 @@
+.staff {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -15px;
+    &_item {
+        margin-bottom: 40px;
+        width: 25%;
+        padding: 0 15px;
+        @media (max-width: 991px) {
+            width: 33%;
+        }
+        @media (max-width: 767px) {
+            width: 50%;
+        }
+        @media (max-width: 479px) {
+            width: 100%;
+        }
+    }
+}
+.group-btn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

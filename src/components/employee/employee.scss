@@ -1,0 +1,49 @@
+.staff-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &_img {
+        width: 128px;
+        height: 128px;
+        border-radius: 50%;
+        border: solid 2px #fff;
+        overflow: hidden;
+        box-shadow: 0 0px 5px #000;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &_personal-data {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    &_contacts {
+    }
+}
+.personal-data {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 500;
+    &_first-name {
+        margin-bottom: 5px;
+    }
+    &_last-name {
+        margin-bottom: 5px;
+    }
+}
+.contacts {
+    &_email {
+        text-decoration: none;
+        font-style: italic;
+        font-weight: 300;
+        transition: color 0.5s;
+        &:hover {
+            color: #000;
+        }
+    }
+}

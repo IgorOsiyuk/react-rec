@@ -1,0 +1,34 @@
+.primary {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+    text-transform: uppercase;
+    background-color: #1a825f;
+    color: #dfd8cf;
+    transition: all 0.5s;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    &:hover {
+        background-color: #dfd8cf;
+        color: #1a825f;
+    }
+}
+.delete {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px;
+    text-transform: uppercase;
+    background-color: #bd1212;
+    color: #fff3e5;
+    transition: all 0.5s;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    &:hover {
+        background-color: #fff3e5;
+        color: #bd1212;
+    }
+}

@@ -1,0 +1,14 @@
+.main-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+    &_link{
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 10px;
+    }
+}
